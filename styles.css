@@ -18,7 +18,9 @@ ul {
 }
 
 .brand-logo {
+    align-items: center;
     position: absolute;
+    display: flex;
 }
 
 .brand-logo input {
@@ -26,6 +28,8 @@ ul {
     border: 0px;
     background-color: #d4dff5;
     height: 35px;
+    margin-left: 20px;
+    min-width: 300px;
 }
 
 .profile-image {
@@ -33,6 +37,7 @@ ul {
     width: 50px;
     border-radius: 50%;
     background-size: contain;
+    border: 1px solid black;
 }
 
 .nav-list {
@@ -69,4 +74,9 @@ ul {
     width: 50px;
     border-radius: 50%;
     background-size: contain;
+    border: 1px solid black;
+}
+
+.fa-solid, .fa-regular, .fa-brands {
+    color: #5f2682;
 }
