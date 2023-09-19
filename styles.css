@@ -80,3 +80,13 @@ ul {
 .fa-solid, .fa-regular, .fa-brands {
     color: #5f2682;
 }
+
+/* cover photo */
+
+.cover-photo {
+    justify-content: center;
+}
+
+.profile-photo-section {
+       
+}
