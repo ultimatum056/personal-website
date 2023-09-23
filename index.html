@@ -19,7 +19,7 @@
     <!-- Top nav bar -->
     <nav class="top-nav">
         <div class="brand-logo">
-            <img class="profile-image" src="assets/images/winter-bear.png" alt="profile photo">
+            <img class="profile-image" src="assets/images/brand-logo.jpg" alt="profile photo">
             <input class="search-input" type="text">
         </div>
         <div></div>
@@ -46,20 +46,41 @@
     <!-- profile banner -->
     <div class="profile-banner">
         <div class="cover-photo">
-            <img src="assets/images/cover-photo.webp">
+            <img class="cover-img" src="assets/images/cover-photo.webp">
         </div>
         <div class="profile-photo-section">
-            <img src="assets/images/winter-bear.png" alt="profile photo">
-            <div>
-                <h1>Ashish Kothari</h1>
-                <h3>489 freinds</h3>
-            </div> 
-            <div>
-                <button>Add to Story</button>
-                <button>Edit profile</button>
-                <button>More</button>
+            <div class="profile-name">
+                <img  class="profile-pic" src="assets/images/winter-bear.png" alt="profile photo">
+                <div>
+                    <h2>Ashish Kothari</h2>
+                    <h6>489 freinds</h6>
+                </div>
             </div>
-        </div>  
+            <div class="action-buttons">
+                <button type="button" class="btn btn-primary">
+                    <i class="fa-solid fa-plus fa-xs"></i> Add to Story
+                </button>
+                <button type="button" class="btn btn-light">
+                    <i class="fa-solid fa-pencil"></i> Edit profile
+                </button>
+                <button type="button" class="btn btn-light">
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+            </div>
+        </div>
+        <hr class="banner-break">
+        <div class="menu">
+            <ul>
+                <li>Post</li>
+                <li>About</li>
+                <li>Freinds</li>
+                <li>Photos</li>
+                <li>Vedios</li>
+                <li>Check-in</li>
+                <li>More &nbsp;&nbsp;<i class="fa-solid fa-sort-down fa-sm"></i></li>
+            </ul>
+            <button class="btn btn-light px-3"><i class="fa-solid fa-ellipsis"></i></button>
+        </div>
     </div>
     <!-- EO profile banner -->
 </body>
