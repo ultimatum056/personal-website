@@ -8,6 +8,17 @@ ul {
     list-style-type: none;
 }
 
+/* Override deafaults */
+.fa-solid,
+.fa-regular,
+.fa-brands {
+    color: #5f2682;
+}
+
+.btn-light {
+    background-color: rgb(224, 225, 225) !important;
+}
+
 /* Top Navigation */
 .top-nav {
     display: flex;
@@ -77,17 +88,13 @@ ul {
     border: 1px solid black;
 }
 
-.fa-solid,
-.fa-regular,
-.fa-brands {
-    color: #5f2682;
-}
-
 /* cover photo */
 .profile-banner {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-image: linear-gradient( rgb(214, 229, 240), white);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
 .cover-photo {
@@ -112,7 +119,7 @@ ul {
 
 
 .banner-break {
-    margin: 30px auto;
+    margin: 5px auto 0px auto;
 }
 
 .profile-name {
@@ -151,14 +158,42 @@ ul {
 .menu {
     display: flex;
     justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+.menu button {
+    height: 30px;
 }
 
 .menu ul {
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 0px;
+    padding: 0px;
+    height: 100%;
 }
 
-.menu ul > li {
-    padding: 0px 10px;
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.active {
+    border-bottom: 5px solid rgb(113, 99, 236);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.menu ul li a:hover:not(.active) {
+    background-color: #eae9e9;
+    border-radius: 10px;
 }
